@@ -18,6 +18,7 @@ public class AppUserService {
         appUser.setEmail(appUserDTO.getEmail());
         appUser.setName(appUserDTO.getName());
         appUser.setPassword(appUserDTO.getPassword());
+        appUser.setRegisterdate(appUserDTO.getRegisterdate());
         appUserRepository.save(appUser);
         return "Record Successfully Saved";
     }

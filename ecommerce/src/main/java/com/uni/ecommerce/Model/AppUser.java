@@ -14,7 +14,7 @@ public class    AppUser {
     private String address;
     private Long contactNo;
     private String email;
-
+    private String registerdate;
     public AppUser() {
     }
 
@@ -64,5 +64,13 @@ public class    AppUser {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getRegisterdate() {
+        return registerdate;
+    }
+
+    public void setRegisterdate(String registerdate) {
+        this.registerdate = registerdate;
     }
 }

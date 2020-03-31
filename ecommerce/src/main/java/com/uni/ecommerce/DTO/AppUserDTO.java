@@ -7,7 +7,7 @@ public class AppUserDTO {
     private String address;
     private Long contactNo;
     private String email;
-
+    private String registerdate;
     public AppUserDTO() {
     }
 
@@ -57,5 +57,13 @@ public class AppUserDTO {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getRegisterdate() {
+        return registerdate;
+    }
+
+    public void setRegisterdate(String registerdate) {
+        this.registerdate = registerdate;
     }
 }
